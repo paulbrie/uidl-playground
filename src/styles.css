@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&display=swap");
+
+html,
+body,
+h1,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+select {
+  font-size: 16px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.App {
+  font-family: sans-serif;
+  padding: 32px;
+}
+
+h1 {
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+  height: auto;
+}
+
+.error {
+  background-color: #8a1717;
+  border-radius: 2px;
+  line-height: 24px;
+  padding: 0 16px;
+  color: white;
+}
+
+.code {
+  font-family: Roboto Mono;
+  font-size: 12px;
+}
+
+.str {
+  color: #bc6c25;
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.objectKey {
+  font-size: 12px;
+  background-color: #cccccc80;
+  padding: 4px 4px 4px 8px;
+  border: solid 1px #cccccc80;
+}
+
+.objectType {
+  font-family: Roboto Mono;
+  font-size: 12px;
+  background-color: #fff;
+  padding: 4px 8px 4px 8px;
+  border-radius: 0 8px 8px 0;
+  border: solid 1px #cccccc80;
+}
+
+.folder {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  cursor: default;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  gap: 4px;
+  margin-left: 20px;
+  cursor: default;
+}
+
+.file:hover {
+  background-color: #cccccc50;
+}
